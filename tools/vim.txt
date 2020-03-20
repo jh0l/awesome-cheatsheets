@@ -102,6 +102,8 @@ gu$                 make lowercase until end of line
 >>                  indent line one column to right
 <<                  indent line one column to left
 ==                  auto-indent current line
+>[movement]         > can be used with movement e.g >} indent whole paragraph
+<[movement]         > can be used with movement e.g <} unindent whole paragraph
 ddp                 swap current line with next
 ddkp                swap current line with previous
 :%retab             fix spaces / tabs issues in whole file
