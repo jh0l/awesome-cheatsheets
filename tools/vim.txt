@@ -82,7 +82,7 @@ Esc                 exit insert mode
 
 
 r                   replace a single character (does not use insert mode)
-R                   enter Insert mode, replacing characters rather than inserting
+R                   enter Insert mode, replacing characters rather than inserting (also known as replace mode)
 J                   join line below to the current one
 cc                  change (replace) an entire line
 cw                  change (replace) to the end of word
