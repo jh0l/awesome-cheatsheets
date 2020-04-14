@@ -249,6 +249,13 @@ set noic                    ignore case: turn off
 
 :e filename         edit a file in a new buffer
 :tabe filename      edit a file in a new tab (Vim7, gVim)
+:tabc               close a tab
+:tabn               go to next tab
+:tabp               go to previous tab
+:tabn <n>           go to the <n> next tab
+:tabp <n>           go to the <n> prev tab
+:tabs               get a list of open tabs
+
 :ls                 list all buffers
 :bn                 go to next buffer
 :bp                 go to previous buffer
